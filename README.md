@@ -1,12 +1,6 @@
 # MTA-Deep-Learning-Course_Paint-The-Circles
 Final Project for Deep Learning Course of MTA using Convolutional Neural Networks (CNN) over PyTorch
 
-# Submitted by:
- 
-1. Name: Tomer Shaked  ID: 312220007
-2. Name: Yonatan Shemesh  ID: 313223604
-3. Name: David Chen  ID: 300334034
-
 # paint_the_circle Project
 
 This project identifies and paints circles given in RGB images. Specifically, each input image contains a rectangle, a triangle and a circle. The image is fed into a neural netork, whose outputs are the center and radius of the circle within the image. The domain considered is "[0,1]x[0,1] "box". PyTorch is the platform used. The goal is to paint the circle.
