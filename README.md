@@ -93,7 +93,7 @@ import datetime
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 ```
 
-# Dataset class definition (given to you) 
+# Dataset class definition
 
 
 ```python
@@ -167,7 +167,7 @@ class ShapesDataset(Dataset):
 
 ```
 
-# Create Data Loaders (given to you) 
+# Create Data Loaders
 
 
 ```python
@@ -298,7 +298,7 @@ def my_loss(outputs, labels):
 
 ```
 
-# Get number of trainable parameters (given to you)  
+# Get number of trainable parameters
 
 
 ```python
@@ -336,7 +336,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.0009)
     Number of model trainable parameters: 298873
     
 
-# Get an estimate number of operations (given to you)
+# Get an estimate number of operations
 
 
 ```python
@@ -383,7 +383,7 @@ def calc_ops(inp_size, net_struct):
     return int(ops)
 ```
 
-# Check rough number of ops for network (for your convenience)
+# Check rough number of ops for network
 
 
 ```python
@@ -417,7 +417,7 @@ print("Total ops: {:,}".format(ops))
     Total ops: 50,882,012
     
 
-# View images, target circle labels and  network outputs (given to you)
+# View images, target circle labels and  network outputs
 
 
 ```python
@@ -559,7 +559,7 @@ def train_model(model,
 
 ```
 
-# Actual train (given to you)
+# Actual train
 
 
 ```python
@@ -772,7 +772,7 @@ save(model, train_losses, validation_losses, "./saves/")
 model, train_losses, validation_losses = load("./saves/")
 ```
 
-# Paint circles on loader images (given to you)
+# Paint circles on loader images
 
 
 ```python
